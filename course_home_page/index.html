@@ -36,10 +36,15 @@
         <hr class="divider2">
         <div class="footer-box">
             <h3>&copy; <span id="year"></span> .:|:.Eder Morales .:|:.Rexburg</h3>
-            <h3>Last Updated :<span class="updated"></span></h3>
+            <h3>Last Updated : <p id="updated"></p></h3>
+                <script>
+                    let text = document.lastModified;
+                    document.getElementById("updated").innerHTML = text;
+                </script>
+                    
         </div>
     </footer>
-    <script src="scripts/main.js/year"></script>
+    <script src="scripts/main.js"></script>
      
 </body>
 </html>

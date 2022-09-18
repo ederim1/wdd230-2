@@ -50,6 +50,12 @@ h3 {
     text-shadow: 2px 2px 5px #000000;
     margin-top: 20px;
 }
+span{
+    font-weight: 700;
+}
+#year{
+    color: #b4b4b4;
+}
 li {
     font-size: 20px;
     margin-top: 10px;
