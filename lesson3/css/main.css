@@ -55,9 +55,7 @@ section{
     grid-template-columns: 1fr 1fr;
     
 }
-#persona-img{
-    
-}
+
 
 /* Desktop view */
 @media only screen and (min-width: 60em){
@@ -70,7 +68,7 @@ section{
         background-color: #ff9a8d;
         margin: 0 auto;
         max-width: 780px;
-        
+
         } 
     /* nav ul {
         list-style-type: none;
