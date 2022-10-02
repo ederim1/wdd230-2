@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1, h2, h3, h4 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color:#4a536b;
+}
+h5 {
+    font-family: Roboto, sans-serif;
+    text-align: center;}
+li{
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    color:#4a536b;
+    padding-left: 500px;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color:#4a536b;
+}
+
+h1 {
+    color:#4a536b;
+    /* background-color: #4a536b; */
+    padding: 30px;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+}
+section{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-box {
+    color:white;
+    background-color:#ff9a8d;
+    padding: 1px;
+}
+#logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.personas-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#persona-img{
+    
+}
+
+/* Desktop view */
+@media only screen and (min-width: 60em){
+    main{
+        display: grid;
+    }
+
+    nav {
+        font-family: Roboto, sans-serif;
+        background-color: #ff9a8d;
+        margin: 0 auto;
+        max-width: 780px;
+        
+        } 
+    /* nav ul {
+        list-style-type: none;
+        overflow: hidden;
+    }  */
+    nav ul a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 20px;
+        background: linear-gradient(90deg, transparent,#aed6dc, transparent) bottom /
+            var(--d, 0) 5px no-repeat;
+        transition: 0.5s;
+    }
+    }
+
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+		display: grid;
+/* 		grid-template-columns: repeat(5, 1fr); */
+		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        /* display: block; */
+	    color: #fff;
+	    text-align: center;
+	} 
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+		/* 	background-color: #bbb;
+	color: #36454f; */
+		--d: 75%;
+	}
+    }
+
+/* @media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+} */
