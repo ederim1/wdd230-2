@@ -31,7 +31,7 @@ header{
     padding: 5px 5px;
     display:grid;
     /* background-color: #4a536b; */
-    grid-template-columns: .8fr .8 1fr 1fr 150px; 
+    grid-template-columns: 0.8fr 0.8fr 1fr 1fr 150px; 
     grid-template-rows: 1fr 50px;
 }
 .socialIcons{
