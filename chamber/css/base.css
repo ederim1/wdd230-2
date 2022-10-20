@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background-color: white;
+    background-color: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
     padding:0;
     margin:0;
 }
@@ -92,40 +92,33 @@ h1, h2, h3, h4, h5 {
 
 
 /*      NAVIGATION          */
-nav{
-    grid-column:5/6 ;
-}
-.navigation button{
+
+button{
     
     background: transparent;
     border: none;
     font-size: 2rem;
 }
+.navigation {
 
-.navigation{
-    /* grid-template-columns: 5/6; */
-    list-style: none;
-    text-align: right;
-}
-.navigation {  
-    background-color: white;
     font-size: 130%;
     padding: 1px;
     word-spacing: 8px;
+    display: none;
+    grid-template-columns: 5/6;
+    list-style: none;
+    text-align: right;
 }
+.responsive{
+    display:block;
+    text-align: right;
+  }
 
-.navigation ul{
-
-    padding: 0;
-    margin: 0;
-}
 .navigation a{
-    color:rgba(255, 255, 255, 0.356);
+    color:#4a536b;
     text-decoration: none;
     font-family: Roboto, sans-serif;
 }
-
-
 #div.event{
     border-spacing: 15px 50px;
 }

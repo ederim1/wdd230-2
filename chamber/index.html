@@ -6,6 +6,7 @@
     <meta name= "description" content= "The Chamber of Commerce Project Eder Morales in WDD 230: Web Frontend Development at Brigham Young University - Idaho / ifchamberofcomerce">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
     <title>Chamber Home Page</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -22,15 +23,14 @@
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-linkedin"></a>
         </div>
-        <nav class="navigation"> 
-            <!-- <ul class="page_nav" -->
-            <button class="ham" href="#">&#9776;</button>
+        <button class="ham" href="#">&#9776;</button>
+        <nav> 
             <ul class="navigation">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#" title="ifchamberofcomerce Discover Page">Discover</a><li>
-            <li><a href="#" title="ifchamberofcomerce Directory Page">Directory</a><li>
-            <li><a href="#" title="ifchamberofcomerce Join Page">Join</a><li>
-            <li><a href="#" title="ifchamberofcomerce Contact Page">Contact</a><li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#" title="ifchamberofcomerce Discover Page">Discover</a><li>
+                <li><a href="#" title="ifchamberofcomerce Directory Page">Directory</a><li>
+                <li><a href="#" title="ifchamberofcomerce Join Page">Join</a><li>
+                <li><a href="#" title="ifchamberofcomerce Contact Page">Contact</a><li>
             </ul>
         </nav>
         <div class="date"></div>
@@ -38,13 +38,26 @@
     
     <main>
         <div class="hero">
-            <p>Idaho Falls Chamber of Commerce, Come grow with us!</p>
+            <p>Welcome to Idaho Falls</p>
+            <img class="hero-img" src="images/iftemple.svg" alt='Idaho falls picture from above'>
+            
         </div>
         <div class="event">
             <p>Event</p>
         </div>
         <div class="weather">
             <p>Weather</p>
+        <!-- <div class="parts" id="weather">
+            <h3>Weather</h3> -->
+            <div class="temp">
+                <img src="images/cloudy-day.webp" alt = "sun and cloud weather icon">
+                <p><span id="t">33</span>&#8457;</p>
+            </div>
+            <hr>
+                <p>
+                <p>Wind Speed:<span id="ws">2 </span> mph </p>
+                <p>Wind Chill:<span id="wc">N/A</span></p>
+
         </div>
         <div class="news">
             <p>News Release</p>
