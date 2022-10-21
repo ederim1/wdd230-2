@@ -6,6 +6,9 @@
     padding: 1px;
     word-spacing: 8px;
     display: block;
+    text-align: center; 
+}
+nav{
     grid-column: 3/5;
 }
 
@@ -41,6 +44,9 @@ header{
 header img{
     width: 200px;
     height: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }    
 
 .page_nav ul li a{
@@ -73,7 +79,8 @@ main{
 }
 
 .hero img{
-    height: auto;
+    height: 100%;
+    width: 100%;
 }
 
 

@@ -25,4 +25,7 @@ document.getElementById("updated2").innerHTML = text;
 
 
 
+if (now.getDay() == 1) {
+    document.getElementById('banner').classList.remove('hide');
+}
 
