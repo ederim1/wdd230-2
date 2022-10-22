@@ -117,6 +117,10 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     font-family: Roboto, sans-serif;
 }
+
+.navigation a:hover {
+    background-color: #ff9a8d;
+  }
 #div.event{
     border-spacing: 15px 50px;
 }
@@ -156,7 +160,7 @@ main p{
 
 main h1{
     font-family: Roboto, sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 15px;
     line-height: 1.5em;
     font-size: 1.5em;
@@ -165,11 +169,12 @@ main h1{
     text-shadow: 5px 5px 10px #142c30b6;
     text-shadow: 5px 5px 10px #1d1f25;
 }
-.spotlight1 .spotlight2 .spotlight3{
+.spotlight1, .spotlight2, .spotlight3{
     border-style: solid;
     border-color: black;
     border-width: 0.1px;
     border-spacing: 10px;
+    margin: 5px 5px;
 }
 
 .temp img{
@@ -203,6 +208,34 @@ main h1{
 .news p{
     padding-top: 60px;
 }
+
+.spotlight1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+}
+.spotlight1 p {
+    text-align: center;
+}
+
+.join h1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    /* padding: 15px 15px; */
+    border-radius: 10%;
+    /* text-decoration: none; */
+    /* display: block; */
+    font-size: 16px;
+    /* text-align: center; */
+    cursor: pointer;
+    width: 50%;
+   
+  
+}
+
 
 /* FOOTER */
 
