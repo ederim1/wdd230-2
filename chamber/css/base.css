@@ -291,7 +291,7 @@ hr {
 
   /* DISCOVER PAGE */
   
-  .gallerycontainer{
+.gallerycontainer{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -300,7 +300,8 @@ hr {
     padding-right: 10px;
   }
 
-  .gallerycontainer img{
+.gallerycontainer img{
     width: 100%;
     height: 100%;
   }
+.gallery:hover {box-shadow: 0 0 50px #333;}

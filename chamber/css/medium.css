@@ -82,5 +82,25 @@ footer img{
     grid-row: 2/3;
 }
 
+ /* DISCOVER PAGE */
+  
+ .gallerycontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.gallerycontainer img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
 
 }
