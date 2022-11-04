@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&family=Ubuntu&display=swap');
+
+
+table {
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgb(159, 159, 197);
+}
+
+tr:nth-child(odd){
+    background-color: #ccc
+}
+thead th tfoot td{
+    background-color: pink;
+}
+
+td, th {
+    padding: 10px;
+}
+
+table, td, th {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody tr:nth-child(3){
+    font-style:italics;
+}
+
+tr{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media only screen and (min-width: 769px){
+    table {
+        width: 600px;
+    }
+    tr{
+        font-size: large;
+    }
+
+
+}
