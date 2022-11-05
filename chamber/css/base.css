@@ -305,3 +305,42 @@ hr {
     height: 100%;
   }
 .gallery:hover {box-shadow: 0 0 50px #333;}
+
+
+/* Form */
+
+form{
+    font-family: Roboto, sans-serif;
+    margin: 40px;
+    font-size: large;
+}
+
+form input:required{
+    border-left:#007bb5 solid 6px;
+}
+form input:required:valid{
+    border-left:green solid 6px;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-size: large;
+    display:block;
+    margin:5px;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+fieldset{
+    display: block;
+    width: 350px;
+    height:auto;
+    background-color:#ff9a8d;
+}
+input[type="submit" i]{
+    display:flex;
+
+}

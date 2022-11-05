@@ -1,0 +1,26 @@
+
+
+form{
+    margin: 40px
+}
+
+form input:required{
+    border-left:red solid 6px;
+}
+form input:required:valid{
+    border-left:green solid 6px;
+}
+
+label,input {
+    display:block;
+    margin:2em;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+#radio label, #radio-input{
+    display: inline;
+}

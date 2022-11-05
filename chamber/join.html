@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Document</title>
+
+</head>
+
+<header>
+    <button class="ham">&#9776;</button>
+    <img src="images/logo-navy.png" alt="logo image in navy color">
+    <section class="headings">
+        <h1>Idaho Falls </h1>
+        <h3>Chamber of Commerce</h3>
+    </section>
+    <div class="socialIcons">
+        <a href="#" class="fa fa-facebook">f</a>
+        <a href="#" class="fa fa-linkedin">in</a>
+    </div>
+    <nav> 
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html" title="ifchamberofcomerce Discover Page">Discover</a><li>
+            <li><a href="#" title="ifchamberofcomerce Directory Page">Directory</a><li>
+            <li><a href="join.html" title="ifchamberofcomerce Join Page">Join</a><li>
+            <li><a href="#" title="ifchamberofcomerce Contact Page">Contact</a><li>
+        </ul>
+    </nav>
+    <div class="date"></div>
+</header>
+<body>
+    <div id="content">
+        <fieldset>
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name*</label>
+            <input required id="fname" type="text" name="firstname">
+            <label for="lname">Last Name*</label>
+            <input required id="lname" type="text" name="lastname">
+            <label for="title">Business Position Title*</label>
+            <input required id="title" type="text" name="title" pattern="[- A-Za-z]+" minlength= "7">
+            <label for="email">Email</label>
+            <input required id="email" type="email" name="email">
+            <label for="phone">Cell Number</label>
+            <input required id="phone" type="tel" name="cell">
+        </fieldset>
+        <fieldset>
+            <label id = "member"> Enter Your Membership </label>
+            <div id="radio">
+                <label for="one"><input type="radio" id="one" name="mlevel" value="level1"> Non Profit</label>
+                <label for="two"><input type="radio" id="two" name="mlevel" value="level2">Bronze</label>
+                <label for="three"><input type="radio" id="three" name="mlevel" value="level3">Silver</label>
+                <label for="four"><input type="radio" id="four" name="mlevel" value="level4">Gold</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="message"> Business Description: </label>
+            <textarea id="message" placeholder="your biz description here"></textarea>
+            <input id="date" type="hidden" name="todaydate">
+        </fieldset>
+            <input type="submit" value="Join Us">
+
+
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>
