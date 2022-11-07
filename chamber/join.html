@@ -35,29 +35,30 @@
 </header>
 <body>
     <div id="content">
-        <fieldset>
+        
         <form method="get" action="thankyou.html">
-            <label for="fname">First Name*</label>
-            <input required id="fname" type="text" name="firstname">
-            <label for="lname">Last Name*</label>
-            <input required id="lname" type="text" name="lastname">
-            <label for="title">Business Position Title*</label>
-            <input required id="title" type="text" name="title" pattern="[- A-Za-z]+" minlength= "7">
-            <label for="email">Email</label>
-            <input required id="email" type="email" name="email">
-            <label for="phone">Cell Number</label>
-            <input required id="phone" type="tel" name="cell">
-        </fieldset>
-        <fieldset>
-            <label id = "member"> Enter Your Membership </label>
-            <div id="radio">
-                <label for="one"><input type="radio" id="one" name="mlevel" value="level1"> Non Profit</label>
-                <label for="two"><input type="radio" id="two" name="mlevel" value="level2">Bronze</label>
-                <label for="three"><input type="radio" id="three" name="mlevel" value="level3">Silver</label>
-                <label for="four"><input type="radio" id="four" name="mlevel" value="level4">Gold</label>
-            </div>
-        </fieldset>
-        <fieldset>
+            <fieldset>
+                <label for="fname">First Name*</label>
+                <input required id="fname" type="text" name="firstname">
+                <label for="lname">Last Name*</label>
+                <input required id="lname" type="text" name="lastname">
+                <label for="title">Business Position Title*</label>
+                <input required id="title" type="text" name="title" pattern="[- A-Za-z]+" minlength= "7">
+                <label for="email">Email</label>
+                <input required id="email" type="email" name="email">
+                <label for="phone">Cell Number</label>
+                <input required id="phone" type="tel" name="cell">
+            </fieldset>
+            <fieldset>
+                <label id = "member"> Enter Your Membership </label>
+                <div id="radio">
+                    <label for="one"><input type="radio" id="one" name="mlevel" value="level1"> Non Profit</label>
+                    <label for="two"><input type="radio" id="two" name="mlevel" value="level2">Bronze</label>
+                    <label for="three"><input type="radio" id="three" name="mlevel" value="level3">Silver</label>
+                    <label for="four"><input type="radio" id="four" name="mlevel" value="level4">Gold</label>
+                </div>
+            </fieldset>
+            <fieldset>
                 <label for="message"> Business Description: </label>
                 <textarea id="message" placeholder="your biz description here"></textarea>
                 <input id="date" type="hidden" name="todaydate">
