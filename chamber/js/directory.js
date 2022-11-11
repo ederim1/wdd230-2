@@ -1,4 +1,4 @@
-const requestDirectory = 'data';
+const requestDirectory = 'https://ederim1.github.io/wdd230-2/chamber/js/data.json';
 
 
 
