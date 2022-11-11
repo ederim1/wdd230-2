@@ -1,0 +1,19 @@
+{
+    "businesses": [
+      {
+        "name": "Hatch Companies of Idaho LLC",
+        "address": "2243 Heyrend Way, Idaho Falls, ID 83402",
+        "phone": "(208) 881-3342",
+        "websiteurl": "https://www.hatchcoidaho.com/",
+        "imageurl": "https://www.hatchcoidaho.com/media/uf5lu2ry/hatchco-logo.png"
+      },
+      {
+        "name": "Docutech",
+        "address": "1755 International Way, Idaho Falls, ID 83402",
+        "phone": " 800.497.3584 - 208.555.3187",
+        "websiteurl": "https://docutech.com/",
+        "imageurl": "https://docutech.com/wp-content/uploads/2022/06/FA_Docutech-R_Horz_Wht_2_x50.png"
+      }
+      
+    ]
+  }
