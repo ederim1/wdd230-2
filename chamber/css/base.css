@@ -363,9 +363,10 @@ input[type="submit" i]{
     width: 300px;
     margin: 20px;
 }
-h2, h1 {
-    color: navy;
+.cards h2, h1 {
+    color: rgb(24, 24, 85);
     text-align: center;
+    padding: 0%;
 }
 .companyimg  {
     width: 90%;
@@ -375,7 +376,6 @@ h2, h1 {
 .hidden{
     display: none;
 }
-
 /* //////////TABLE/////////// */
 table {
     width: 350px;
@@ -386,19 +386,12 @@ table {
 tr:nth-child(odd){
     background-color: white;
 }
-thead th tfoot td{
-    background-color: white;
-}
+
 
 td, th {
     padding: 10px;
 }
 
-
-
-tbody tr:nth-child(3){
-    font-style:italics;
-}
 
 tr{
     font-family: 'Ubuntu', sans-serif;
@@ -409,6 +402,7 @@ tr{
     grid-template-columns: 1fr 50px 5px 50px 1fr;
     grid-template-rows: 1fr;
 }
+
 #directory{
 max-width: 50px;
 box-shadow:none;
@@ -423,7 +417,7 @@ grid-column: 2/3;
  padding: 2px;
  border:2px solid gray;
  grid-column: 4/5;
-    }
+}
 
 
 
