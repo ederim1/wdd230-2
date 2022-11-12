@@ -30,13 +30,6 @@
         "imageurl": "https://www.mcalvain.com/wp-content/uploads/2019/10/web-logo-BDC.png"
       },
       {
-        "name": "Hatch Companies of Idaho LLC",
-        "address": "2243 Heyrend Way, Idaho Falls, ID 83402",
-        "phone": "(208) 881-3342",
-        "websiteurl": "https://www.hatchcoidaho.com/",
-        "imageurl": "https://www.hatchcoidaho.com/media/uf5lu2ry/hatchco-logo.png"
-      },
-      {
         "name": "InnoTech Construction",
         "address": "1075 S Utah Ave Suite 322, Idaho Falls, ID 83402",
         "phone": "(717) 335-1888",
@@ -84,9 +77,14 @@
         "phone": "(208) 542-3700",
         "websiteurl": "https://idahoanfoodservice.com/",
         "imageurl": "https://idahoanfoodservice.com/wp-content/themes/Idahoan2015/assets/img/idahoan-logo.png"
+      },
+      {
+        "name": "Teton Print and Package",
+        "address": "575 1st St, Idaho Falls, ID 83401",
+        "phone": "(208) 529-0775",
+        "websiteurl": "https://www.tetonprintandpackage.com/",
+        "imageurl": "https://www.tetonprintandpackage.com/wp-content/uploads/cropped-teton-logo-768x184.png"
       }
-
-
 
     ]
   }
