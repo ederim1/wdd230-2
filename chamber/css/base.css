@@ -356,7 +356,7 @@ input[type="submit" i]{
 }
 
 .cards section {
-    border: 1px solid navy;
+    border: 1px solid gray;
     background-color: lightblue;
     padding: 30px;
     text-align: center;
@@ -367,9 +367,10 @@ h2, h1 {
     color: navy;
     text-align: center;
 }
-img {
+.companyimg  {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
+    background-color: white;
 }
 .hidden{
     display: none;

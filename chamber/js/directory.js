@@ -32,6 +32,8 @@ function createBusinessCard(item) {
 
     let card = document.createElement('section');
 
+    let img = document.createElement('img');
+
     let h2 = document.createElement('h2');
 
     let p1 = document.createElement('p'); 
@@ -39,8 +41,7 @@ function createBusinessCard(item) {
     let p2 = document.createElement('p'); 
 
     let a = document.createElement('a')
-
-    let img = document.createElement('img');
+    
 
     h2.textContent = item.name; 
 
@@ -56,6 +57,10 @@ function createBusinessCard(item) {
 
     img.setAttribute('alt', item.name);
 
+    img.setAttribute('class', 'companyimg');
+
+    card.appendChild(img);
+
     card.appendChild(h2);
 
     card.appendChild(p1); 
@@ -63,8 +68,6 @@ function createBusinessCard(item) {
     card.appendChild(p2);
     
     card.appendChild(a);
-
-    card.appendChild(img);
     
     document.querySelector('.cards').appendChild(card); 
 
