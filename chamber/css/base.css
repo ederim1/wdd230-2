@@ -377,10 +377,11 @@ input[type="submit" i]{
     display: none;
 }
 /* //////////TABLE/////////// */
-table {
-    width: 350px;
+.directoryTable {
+    width: 50px;
     margin: 0 auto;
     background-color: rgb(159, 159, 197);
+
 }
 
 tr:nth-child(odd){
@@ -399,7 +400,7 @@ tr{
 
 .menus{
     display: grid;
-    grid-template-columns: 1fr 50px 5px 50px 1fr;
+    grid-template-columns: 1fr 50px 40px 50px 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -409,6 +410,7 @@ box-shadow:none;
 padding: 2px;
 border:2px solid gray;
 grid-column: 2/3;
+border-radius: 8px;
 }
 
 #table{
@@ -416,22 +418,8 @@ grid-column: 2/3;
  box-shadow:none;
  padding: 2px;
  border:2px solid gray;
+ border-radius: 8px;
  grid-column: 4/5;
 }
 
 
-
-@media only screen and (min-width: 769px){
-    table {
-        width: 900px;
-        border:1px solid black;
-        border-collapse: collapse;
-        text-align: center;
-    }
-
-    tr{
-        font-size: large;
-    }
-
-
-}
