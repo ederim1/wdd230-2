@@ -371,3 +371,72 @@ img {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
 }
+.hidden{
+    display: none;
+}
+
+/* //////////TABLE/////////// */
+table {
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgb(159, 159, 197);
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+thead th tfoot td{
+    background-color: white;
+}
+
+td, th {
+    padding: 10px;
+}
+
+
+
+tbody tr:nth-child(3){
+    font-style:italics;
+}
+
+tr{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menus{
+    display: grid;
+    grid-template-columns: 1fr 50px 5px 50px 1fr;
+    grid-template-rows: 1fr;
+}
+#directory{
+max-width: 50px;
+box-shadow:none;
+padding: 2px;
+border:2px solid gray;
+grid-column: 2/3;
+}
+
+#table{
+ max-width: 50px;
+ box-shadow:none;
+ padding: 2px;
+ border:2px solid gray;
+ grid-column: 4/5;
+    }
+
+
+
+@media only screen and (min-width: 769px){
+    table {
+        width: 900px;
+        border:1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    tr{
+        font-size: large;
+    }
+
+
+}
