@@ -342,12 +342,12 @@ fieldset{
 }
 input[type="submit" i]{
     display:flex;
-
 }
-
 
 /* /////////////////////////////*/
 /* Directory */
+@import url('https://fonts.googleapis.com/css2?family=Quantico&family=Ubuntu&display=swap');
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -363,10 +363,11 @@ input[type="submit" i]{
     width: 300px;
     margin: 20px;
 }
-.cards h2, h1 {
+.cards h2, .cards h1, .cards p {
     color: rgb(24, 24, 85);
     text-align: center;
     padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
 }
 .companyimg  {
     width: 90%;
@@ -377,22 +378,20 @@ input[type="submit" i]{
     display: none;
 }
 /* //////////TABLE/////////// */
+
 .directoryTable {
     width: auto;
     margin: 0 auto;
     background-color: rgb(159, 159, 197);
-
 }
 
 tr:nth-child(odd){
     background-color: white;
 }
 
-
 td, th {
     padding: 10px;
 }
-
 
 tr{
     font-family: 'Ubuntu', sans-serif;
