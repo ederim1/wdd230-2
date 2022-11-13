@@ -160,4 +160,13 @@ hr {
     width: 550px;
     height: 440px;
   }
+
+  td, th {
+    padding: 10px;
+    display: inline;
 }
+
+
+}
+
+

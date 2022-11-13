@@ -378,7 +378,7 @@ input[type="submit" i]{
 }
 /* //////////TABLE/////////// */
 .directoryTable {
-    width: 50px;
+    width: auto;
     margin: 0 auto;
     background-color: rgb(159, 159, 197);
 
@@ -396,6 +396,8 @@ td, th {
 
 tr{
     font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    flex-direction: column;
 }
 
 .menus{
@@ -423,3 +425,9 @@ border-radius: 8px;
 }
 
 
+@media only screen and (min-width: 769px){
+    tr{
+        font-family: 'Ubuntu', sans-serif;
+        display: table-row;    
+    }
+}

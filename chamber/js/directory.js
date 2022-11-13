@@ -125,3 +125,4 @@ function displayTable() {
 document.querySelector("#directory").addEventListener("click", displayDirectory);
 document.querySelector("#table").addEventListener("click", displayTable);
 
+
