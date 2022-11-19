@@ -16,6 +16,10 @@ main{
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
 }
 
+.hero h1{
+    font-size: 400%;
+}
+
 .hero, .news ,.join{
     grid-column: 1/3;
 }
@@ -98,7 +102,10 @@ footer img{
     height: 100%;
   }
 
-
+  .joinbutton{
+    margin-left: 43%;
+    font-size: 150%;
+}
 
 
 

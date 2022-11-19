@@ -40,9 +40,9 @@
         <div class="hero">
             <h1>Welcome to Idaho Falls</h1>
             <picture>
-                <source media="(min-width: 769px)" srcset="images/large.jpg">
-                <source media="(min-width: 481px)" srcset="images/medium.jpg">
-                <img class="hero-img" src="images/small.jpg" alt='Idaho falls picture from above'>
+                <source media="(min-width: 769px)" srcset="images/iftempleLarge.jpg">
+                <source media="(min-width: 481px)" srcset="images/iftempleMedium.jpg">
+                <img class="hero-img" src="images/iftempleSmall.jpg" alt='Idaho falls picture from above'>
             </picture>
             
             <!-- <div class="hero-img" ></div> -->
@@ -54,17 +54,14 @@
             <p>Join us for the grand opening of the Smokin Fins, Thursday at 1:00pm</p>
         </div>
         <div class="weather">
-            <h1>Weather</h1>
-        <!-- <div class="parts" id="weather">
-            <h3>Weather</h3> -->
-            <div class="temp">
-                <img src="images/cloudy-day.webp" alt = "sun and cloud weather icon">
-                <p><span id="t">33</span>&#8457; | Partly cloudy</p>
-            </div>
+            <h1>Weather</h1>           
+            <img src="" alt="" id="weathericon" /> 
+            <p><span id="current-temp"></span> &deg;F</p>  
+            <p><span id="weatherdescr"></span></p>
             <hr>
-                <p>
-                <p>Wind Speed:<span id="ws">2 </span> mph </p>
-                <p>Wind Chill:<span id="wc">N/A</span></p>
+            <p>Wind Speed: <span id="windSpeed"></span></p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+            
         </div>
         <div class="news">
             <h1>News Release</h1>
@@ -89,9 +86,9 @@
             </section>
         </div>
         <div class="join">
-            
-            <h3 href="#" class="button">Join</h3> 
-            <p>Discover how t o join the chamber of commerce and how it will benefit your organization!</p>
+            <button type="submit" class="joinbutton">Join</button>
+            <!-- <h3 href="#" class="button">Join</h3>  -->
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         
     </main>
@@ -118,8 +115,6 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/discover.js"></script>
-
+    <script src="weather-api.js"></script>
 </body>
 </html>

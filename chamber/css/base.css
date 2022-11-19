@@ -19,6 +19,7 @@ header{
     grid-row: 2/3;
     border: 1px solid #bbb;
     background-color: #aed6dcad;
+    border-radius: 5px;
   }
 .date h3 {
     font-size: 100%;
@@ -53,6 +54,7 @@ header h3{
 h1, h2, h3, h4, h5 {
     font-family: Roboto, sans-serif;
     text-align: center;
+    
 }
 .socialIcons{
     grid-column: 5/6;
@@ -132,13 +134,13 @@ h1, h2, h3, h4, h5 {
 
 main div{
     background-color: #4a536b;
-    min-height: 200px;
-    border-style: solid;
-    border-color: black;
+    /* min-height: 200px; */
     border-width: 0.1px;
     border-spacing: 10px;
     margin: 7px 7px;
     box-shadow: 5px 5px 5px  #1d1f25;
+    border-radius: 5px;
+
 }
 
 main h2{
@@ -150,7 +152,7 @@ main h2{
     font-weight: bolder;
     color:white;
     text-shadow: 5px 5px 10px #1d1f25;
-    padding-top: 100px
+    /* padding-top: 100px */
 }
 
 main p{
@@ -166,14 +168,13 @@ main h1{
     padding: 15px;
     line-height: 1.5em;
     font-size: 1.5em;
-    font-weight: bolder;
+    font-weight: bold;
     color:white;
-    text-shadow: 5px 5px 10px #142c30b6;
-    text-shadow: 5px 5px 10px #1d1f25;
+    text-shadow: 1px 1px 10px white ;
 }
 .spotlight1, .spotlight2, .spotlight3{
     border-style: solid;
-    border-color: black;
+    border-color: #24283494;
     border-width: 0.1px;
     border-spacing: 10px;
     margin: 5px 5px;
@@ -195,6 +196,8 @@ main h1{
 }
 .hero h1{
     position: absolute;
+    text-shadow: 2px 2px 10px #3B5998 ;
+    font-size: 150%;
 }
 
 .hero-img{
@@ -214,8 +217,15 @@ main h1{
 }
 
 
-.news p{
-    padding-top: 60px;
+.weather hr{
+    padding-left: 0px;
+}
+
+.weather p{
+    padding-left: 28%;
+}
+img#weathericon{
+    padding-left: 35%;
 }
 
 .spotlight1 img {
@@ -230,20 +240,27 @@ main h1{
     text-align: center;
 }
 
-.join h3{
-    background-color: #4CAF50; /* Green */
-    border: none;
+.join{
+    display: block;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.joinbutton{
+    margin-left: 35%;
+    background-color: #4caf50;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
     color: white;
-    /* padding: 15px 15px; */
-    border-radius: 10%;
-    /* text-decoration: none; */
-    /* display: block; */
-    font-size: 16px;
-    /* text-align: center; */
-    cursor: pointer;
-    width: 50%;
-   
-  
+    padding: 15px 32px;
+    transition-duration: .4s;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 1px 1px 10px white ;
+}
+.joinbutton:hover{
+    background-color: #4caf50;
+    background-color: green;
 }
 
 
