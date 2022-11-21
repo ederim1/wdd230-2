@@ -4,7 +4,7 @@ const getWeather = async () => {
     const jsObject = await response.json();
 
   document.querySelector('#current-temp').textContent = jsObject.locations["Idaho Falls, ID"].currentConditions.temp;
-    const iconsrc= `/chamber/images/weatherIcons/${jsObject.locations["Idaho Falls, ID"].currentConditions.icon}.png`;  
+    const iconsrc= `images/weatherIcons/${jsObject.locations["Idaho Falls, ID"].currentConditions.icon}.png`;  
     const desc =jsObject.locations["Idaho Falls, ID"].currentConditions.icon ;
   document.querySelector('#weathericon').setAttribute('src', iconsrc);
   // document.querySelector('#weathericon').setAttribute('alt', desc);
