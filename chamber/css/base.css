@@ -211,8 +211,17 @@ main h1{
     position: absolute;
     top:60%;
     color:white;
+    font-size: 30px;
 }
 
+#banner1{
+    background-color: #36454fda;
+    position: absolute;
+    font-size: 80px;
+    top:75%;
+    left: 28%;
+    color:white;
+}
 .hide{
     display: none;
 }
@@ -223,7 +232,7 @@ main h1{
 }
 
 .weather p{
-    padding-left: 28%;
+    padding-left: 35%;
 }
 img#weathericon{
     padding-left: 35%;
@@ -401,15 +410,17 @@ input[type="submit" i]{
     width: auto;
     margin: 0 auto;
     background-color: rgb(159, 159, 197);
+    
+    
 }
 
 tr:nth-child(odd){
     background-color: white;
-}
+    }
 
-td, th {
-    padding: 10px;
-}
+/* td, th {
+    padding: 1000px;
+} */
 
 tr{
     font-family: 'Ubuntu', sans-serif;
